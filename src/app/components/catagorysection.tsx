@@ -5,7 +5,7 @@ const CategoriesSection = () => {
   const categories = [
     { src: '/assest/catagory1.png', alt: 'Wing Chair', title: 'Wing Chair', count: '3,584 Products' },
     { src: '/assest/catagory2.png', alt: 'Wooden Chair', title: 'Wooden Chair', count: '157 Products' },
-    { src: '/assest/catagory3.png', alt: 'Desk Chair', title: 'Desk Chair', count: '154 Products' },
+    { src: '/assest/shot1.png', alt: 'Desk Chair', title: 'Desk Chair', count: '154 Products' },
   ];
 
   return (
@@ -15,8 +15,11 @@ const CategoriesSection = () => {
         <h2 className="text-2xl sm:text-3xl font-['Inter'] font-semibold capitalize text-[#272343] mb-4 sm:mb-0">
           Top categories
         </h2>
-        <button className="w-24 h-10 bg-gray-200 rounded-md flex items-center justify-center text-sm font-medium text-gray-600 hover:bg-gray-300 transition">
-          View All
+        <button className="w-24 h-10 bg-gray-400 rounded-md flex items-center justify-center text-sm font-medium text-gray-600 hover:bg-gray-300 transition">
+          <Link href="/Product" className='text-white font-inter font-medium text-sm:uppercase'>
+          View All</Link>
+          
+          
         </button>
       </div>
 

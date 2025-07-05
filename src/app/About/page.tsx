@@ -106,7 +106,7 @@ const About = () => {
             </div>
             <button className="absolute bottom-6 sm:bottom-8 left-4 sm:left-8 lg:left-16 w-full max-w-[179px] h-14 flex items-center justify-center bg-white/15 text-base leading-6 font-['Inter'] font-normal text-white px-6 sm:px-8 py-4 rounded-md hover:bg-white/20 transition-colors" >
             <Link href="/Product" className="text-white font-inter font-medium text-sm uppercase hover:text-red-500">
-           View collection</Link>
+           View Collection</Link>
               
             </button>
           </section>

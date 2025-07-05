@@ -11,10 +11,11 @@ export default function Home() {
     <div>
       <HeroSection/>
       <CompanyLogos/>
+      <FeaturedProducts/>
       <CategoriesSection/>
       <HotegorySection/>
       <ProductsSection/>
-      <FeaturedProducts/>
+      
     </div>
   );
 }
