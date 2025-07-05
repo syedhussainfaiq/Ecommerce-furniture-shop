@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function HotegorySection() {
   return (
-    <section className="relative w-full max-w-[1320px] mx-auto mt-16 md:mt-24 lg:mt-32 px-4 sm:px-6 lg:px-8">
+    <section className="relative w-full max-w-[1320px] mx-auto mt-10 md:mt-24 lg:mt-32 px-4 sm:px-6 lg:px-8">
       {/* Rotated Title */}
       <div className="hidden lg:block absolute w-[52px] h-[648px] left-[-60px] top-0 transform -rotate-90">
         <h2 className="font-roboto font-normal text-2xl md:text-3xl lg:text-[34px] leading-tight text-center uppercase text-black whitespace-nowrap">

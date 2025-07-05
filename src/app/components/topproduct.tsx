@@ -40,7 +40,7 @@ const products = [
 
 export default function FeaturedProducts() {
   return (
-    <section className="relative w-full max-w-[1920px] mx-auto mt-16 md:mt-5 lg:mt-48 px-4 sm:px-6 lg:px-8">
+    <section className="relative w-full max-w-[1920px] mx-auto mt-5 md:mt-5 lg:mt-48 px-4 sm:px-6 lg:px-8">
       {/* Heading */}
       <div className="flex justify-between items-center w-full mb-6 md:mb-8">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-inter font-semibold leading-tight capitalize text-[#272343]">

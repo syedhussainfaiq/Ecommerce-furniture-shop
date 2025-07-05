@@ -78,7 +78,7 @@ const products = [
 
 const ProductsSection: React.FC = () => {
   return (
-    <section className="relative w-full max-w-[1320px] mx-auto mt-80 px-4">
+    <section className="relative w-full max-w-[1320px] mx-auto mt-15 px-4">
       <h2 className="text-3xl font-inter capitalize text-gray-900 mb-4 text-center md:text-left md:ml-[150px]">
         Our Products
       </h2>
